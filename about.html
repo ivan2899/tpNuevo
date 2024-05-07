@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre nosotros</title>
+    <link rel="icon" type="image/ico" href="./img/fav.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header-nav">
+            <button class="button-nav" onclick="location.href='index.html'">Home</button>
+            <button class="button-nav" onclick="location.href='video.html'">Video</button>
+            <button class="button-nav" onclick="location.href='pasoAPaso.html'">Paso a paso</button>
+            <button class="button-nav" onclick="location.href='about.html'">Acerca de</button>
+            <button class="button-nav" onclick="location.href='table.html'">Tabla aporte nutricional</button>
+        </nav>
+    </header>
+
+    <section>
+        <h3 class="txtContactWsp">¿Desea realizar alguna consulta?</h3>
+        <a href="https://wa.me/5491155555555?text=Hola, me gustaria saber más información sobre la cocina"
+            class="float-wa" target="_blank">
+            <i class="fa fa-whatsapp"> Contactanos por WhatsApp</i>
+        </a>
+        <h3 class="txtContactWsp">¡¡¡Su consulta no molesta !!!</h3>
+
+        <br><br>
+        <p>Para que nos podamos comunicar nosotros, complete el formulario, por favor.</p>
+        <form action="">
+            <div>
+                <label for="nombre" class="input_modal">Nombre: </label><br>
+                <input type="text" name="nombre" id="nombre" class="input_modal" placeholder="Ingrese su nombre">
+            </div>
+            <div>
+                <label for="apellido" class="input_modal">Apellido: </label><br>
+                <input type="text" name="apellido" id="apellido" class="input_modal" placeholder="Ingrese su apellido">
+            </div>
+            <div>
+                <label for="email" class="input_modal">Email: </label><br>
+                <input type="text" name="email" id="email" class="input_modal" placeholder="Ingrese su email">
+            </div>
+
+            <div> <br>
+                <label for="mensaje">Mensaje:</label> <br>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <br>
+                <button type="reset" id="reset">Borrar todo</button>
+                <button type="submit" id="submit">Enviar</button>
+            </div>
+
+            <br><br><br>
+            <p>De ser necesario, se puede presentar personalmente y realizar todas las consultas que necesite</p>
+            <p>Nos encontramos en Av.Jujuy 584 C.A.B.A.</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.51590296368!2d-58.40403149875693!3d-34.61640090954825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccae4e3db8c41%3A0xe2b0a28fc2da6648!2sAv.%20Jujuy%20584%2C%20C1229ABN%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1715123176448!5m2!1ses-419!2sar"
+                width="600" height="450" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+        <p class="text-footer">Ivan Cordoba - Comision A331</p>
+    </footer>
+</body>
+
+</html>
